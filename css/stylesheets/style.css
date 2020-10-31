@@ -1,0 +1,174 @@
+/* line 8, ../scss/style.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 13, ../scss/style.scss */
+.underline, #scroller h5::after, #filter h5::after, #articals h5::after {
+  content: "";
+  display: block;
+  background-color: #f39233;
+  height: 0.3rem;
+  width: 6rem;
+  margin-top: 5px;
+}
+
+/* line 22, ../scss/style.scss */
+nav {
+  position: relative;
+  border-bottom: 2px solid #f39233;
+}
+/* line 25, ../scss/style.scss */
+nav .navbar-toggler {
+  background-color: #f39233;
+  outline: none;
+}
+/* line 29, ../scss/style.scss */
+nav .nav-brand {
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  text-decoration: none;
+}
+/* line 34, ../scss/style.scss */
+nav .nav-brand span {
+  color: #f39233;
+}
+/* line 38, ../scss/style.scss */
+nav ul {
+  padding: 1rem;
+  color: #f39233;
+}
+/* line 41, ../scss/style.scss */
+nav ul li {
+  padding: 0.5rem;
+}
+/* line 43, ../scss/style.scss */
+nav ul li:hover:after {
+  content: "";
+  display: block;
+  height: 0.1rem;
+  width: 4.5rem;
+  background-color: #f39233;
+  margin: auto;
+  opacity: 0.5;
+}
+/* line 52, ../scss/style.scss */
+nav ul li a {
+  outline: none;
+}
+/* line 54, ../scss/style.scss */
+nav ul li a i {
+  margin-right: 1rem;
+  color: #f39233;
+}
+/* line 62, ../scss/style.scss */
+nav span .fa-shopping-cart {
+  color: #f39233;
+  cursor: pointer;
+}
+/* line 66, ../scss/style.scss */
+nav #cart-list {
+  background-color: #00000082;
+  width: 300px;
+  position: absolute;
+  z-index: 100;
+  transform: skew(360deg);
+  transition: all 2s;
+}
+/* line 73, ../scss/style.scss */
+nav #cart-list .fa-trash-alt {
+  cursor: pointer;
+}
+
+/*Start of form  css*/
+/* line 82, ../scss/style.scss */
+.login .modal-content {
+  border: solid #f39233 5px;
+  border-radius: 10%;
+}
+/* line 85, ../scss/style.scss */
+.login .modal-content button {
+  background-color: #f39233;
+  padding: 20px;
+}
+
+/* line 90, ../scss/style.scss */
+#signin .modal-content {
+  border: solid #f39233 5px;
+  border-radius: 10%;
+}
+/* line 93, ../scss/style.scss */
+#signin .modal-content .btn {
+  background-color: #f39233;
+  padding: 20px;
+}
+
+/* line 97, ../scss/style.scss */
+#mainslider {
+  padding-bottom: 5rem;
+}
+/* line 99, ../scss/style.scss */
+#mainslider img {
+  max-height: 450px;
+}
+/* line 102, ../scss/style.scss */
+#mainslider .pic-bannar img {
+  border: 0.5px solid #f39233;
+}
+
+/*start of scroller*/
+/* line 109, ../scss/style.scss */
+#scroller {
+  padding: 5rem 0 5rem 0;
+  background-color: #F1F3F5;
+  border-top: #f39233 solid;
+  border-bottom: solid #f39233;
+}
+/* line 117, ../scss/style.scss */
+#scroller .card {
+  border-top: #f39233 solid;
+  border-bottom: solid #f39233;
+  cursor: grabbing;
+}
+/* line 121, ../scss/style.scss */
+#scroller .card .fa-eye {
+  cursor: pointer;
+  color: #f39233;
+  font-size: 1.5rem;
+}
+
+/*Start of filter*/
+/* line 131, ../scss/style.scss */
+#filter {
+  padding: 5rem 0 5rem 0;
+}
+/* line 136, ../scss/style.scss */
+#filter .btn {
+  border: solid #f39233 0.5px;
+  outline: none;
+}
+/* line 141, ../scss/style.scss */
+#filter .grid:hover .grid-item {
+  opacity: 0.5;
+  transition: ease-in-out 0.5s;
+}
+/* line 145, ../scss/style.scss */
+#filter .grid:hover .grid-item:hover {
+  opacity: 1;
+}
+
+/*start of articals*/
+/* line 154, ../scss/style.scss */
+#articals {
+  padding: 5rem 0 5rem 0;
+  border-top: #f39233 solid;
+  border-bottom: solid #f39233;
+}
+/* line 161, ../scss/style.scss */
+#articals .card {
+  padding: 5px;
+  margin: 2rem 0 2rem 0;
+  border: solid #f39233;
+}

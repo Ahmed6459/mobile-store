@@ -1,0 +1,166 @@
+
+$orang :#f39233;
+$yellow:#f1e189;
+$green:#f1e189;
+$blou:#01c5c4;
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.underline{
+    content: "";
+    display: block;
+    background-color: $orang;
+    height: 0.3rem;
+    width: 6rem;
+    margin-top: 5px;
+}
+
+nav{
+    position: relative;
+    border-bottom: 2px solid $orang;
+    .navbar-toggler{
+        background-color: $orang ;
+        outline: none ;
+    }
+    .nav-brand{
+        color:  black;
+        font-weight: bold;
+        font-size: 2rem;
+        text-decoration: none;
+        span{
+            color: $orang ;
+        }
+    }
+    ul {
+        padding: 1rem;
+        color: $orang ;
+        li{
+            padding: 0.5rem;
+            &:hover:after{
+                content: "";
+                display: block;
+                height: 0.1rem;
+                width: 4.5rem;
+                background-color: $orang ;
+                margin: auto ;
+                opacity: 0.5;
+            }
+            a{
+                outline: none ;
+                i{
+                    margin-right: 1rem;
+                    color: $orang ;
+                }
+            }
+
+        }
+    }
+    span .fa-shopping-cart{
+        color: $orang;
+        cursor: pointer;
+    }
+    #cart-list{
+        background-color: #00000082;
+        width: 300px;
+        position: absolute;
+        z-index: 100;
+        transform: skew(360deg);
+        transition: all 2s;
+        .fa-trash-alt{
+            cursor: pointer;
+        }
+    }
+    
+}
+
+/*Start of form  css*/
+.login{
+    .modal-content{
+        border: solid $orang 5px;
+        border-radius: 10%;
+        button{background-color: $orang; padding: 20px;}
+    }
+}
+
+#signin{
+    .modal-content{
+        border: solid $orang 5px;
+        border-radius: 10%;
+        .btn{background-color: $orang; padding: 20px;}
+    }
+}
+
+#mainslider{ 
+    padding-bottom: 5rem;   
+    img{
+        max-height: 450px;
+    }
+    .pic-bannar img{
+        border: 0.5px solid $orang ;
+    }    
+}
+
+/*start of scroller*/
+
+#scroller{
+    padding: 5rem 0 5rem 0;
+    background-color: #F1F3F5;
+    border-top: $orang solid ;
+    border-bottom: solid $orang ;
+    h5::after{
+        @extend .underline;
+    }
+    .card{
+        border-top: $orang solid ;
+        border-bottom: solid $orang ;
+        cursor: grabbing;
+        .fa-eye{
+            cursor: pointer;
+            color: $orang ;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+/*Start of filter*/
+
+#filter{
+    padding: 5rem 0 5rem 0;
+    h5::after{
+        @extend .underline
+    }
+    .btn{
+        border: solid $orang 0.5px;
+        outline: none;
+    }
+    .grid{
+        &:hover .grid-item{
+            opacity: 0.5;
+            transition: ease-in-out 0.5s;
+            }
+        &:hover .grid-item:hover{
+            opacity: 1;
+        }
+    }
+
+}
+
+/*start of articals*/
+
+#articals{
+    padding: 5rem 0 5rem 0;
+    border-top: $orang solid ;
+    border-bottom: solid $orang ;
+    h5::after{
+        @extend .underline;
+    }
+    .card{
+        padding: 5px;
+        margin: 2rem 0 2rem 0;
+        border: solid $orang ;
+    }
+}
