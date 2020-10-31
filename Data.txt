@@ -1,0 +1,47 @@
+ [{
+ 		"_id": 10,
+ 		"product": "samsung",
+ 		"img": "1.png",
+ 		"productName": " Samsung Galagsy s3",
+ 		"rate": "5",
+ 		"price": 2355,
+ 		"data": "HUAWEI Y9a takes inspirations from the changing hues of sky and the art of light and shadow, and adopts the classic halo design for rear cameras. With one look, you'd be captivated by its enchanting beauty. With one touch, you'd be amazed at its comfortable grip brought by 3D arc design and nano-textured surface. "
+
+ 	},
+
+ 	{
+ 		"_id": 10,
+ 		"product": "samsung",
+ 		"img": "2.png",
+ 		"productName": "Samsung Galagsy s3",
+ 		"rate": "5",
+ 		"price": 2355,
+ 		"data": "HUAWEI Y9a takes inspirations from the changing hues of sky and the art of light and shadow, and adopts the classic halo design for rear cameras. With one look, you'd be captivated by its enchanting beauty. With one touch, you'd be amazed at its comfortable grip brought by 3D arc design and nano-textured surface. "
+
+ 	},
+
+ 	{
+ 		"_id": 10,
+ 		"product": "samsung",
+ 		"img": "3.png",
+ 		"productName": " Samsung Galagsy s3",
+ 		"rate": "5",
+ 		"price": 2355,
+ 		"data": "HUAWEI Y9a takes inspirations from the changing hues of sky and the art of light and shadow, and adopts the classic halo design for rear cameras. With one look, you'd be captivated by its enchanting beauty. With one touch, you'd be amazed at its comfortable grip brought by 3D arc design and nano-textured surface. "
+
+ 	},
+
+ 	{
+ 		"_id": 10,
+ 		"product": "samsung",
+ 		"img": "1.png",
+ 		"productName": " Samsung Galagsy s3",
+ 		"rate": "5",
+ 		"price": 2355,
+ 		"data": "HUAWEI Y9a takes inspirations from the changing hues of sky and the art of light and shadow, and adopts the classic halo design for rear cameras. With one look, you'd be captivated by its enchanting beauty. With one touch, you'd be amazed at its comfortable grip brought by 3D arc design and nano-textured surface. "
+
+
+ 	}
+
+
+ ]
